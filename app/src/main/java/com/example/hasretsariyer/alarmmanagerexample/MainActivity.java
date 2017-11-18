@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void showTimePicker() {
         Calendar calendar = Calendar.getInstance();
 
-        TimePickerDialog timePickerDialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+        TimePickerDialog timePickerDialog = new TimePickerDialog(this, R.style.TimePicker, new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker timePicker, int hourOfDay, int minute) {
                 setAlarm(hourOfDay, minute);
