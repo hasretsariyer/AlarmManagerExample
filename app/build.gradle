@@ -8,8 +8,8 @@ android {
         applicationId "com.example.hasretsariyer.alarmmanagerexample"
         minSdkVersion 17
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 11
+        versionName "2.1.4"
     }
     buildTypes {
         release {
